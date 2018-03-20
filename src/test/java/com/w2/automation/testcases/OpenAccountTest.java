@@ -22,6 +22,7 @@ public class OpenAccountTest extends TestBase {
         }
 
         //just a comment
+        
         click("openAccBtn_CSS");
         select("customerDrop_CSS", customer);
         select("currencyDrop_CSS", currency);
