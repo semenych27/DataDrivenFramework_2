@@ -1,0 +1,16 @@
+com\w2\automation\testcases\LoginTest.class
+com\w2\automation\testcases\OpenAccountTest.class
+com\w2\automation\utilities\MonitoringMail.class
+com\w2\automation\utilities\ExcelReader.class
+com\w2\automation\rough\TestProperties.class
+com\w2\automation\utilities\TestConfig.class
+com\w2\automation\listeners\CustomListeners.class
+com\w2\automation\base\TestBase.class
+com\w2\automation\AppTest.class
+com\w2\automation\rough\HostAddress.class
+com\w2\automation\utilities\MonitoringMail$SMTPAuthenticator.class
+com\w2\automation\testcases\AddCustomerTest.class
+com\w2\automation\utilities\ExtentManager.class
+com\w2\automation\utilities\MonitoringMail$1.class
+com\w2\automation\utilities\TestUtil.class
+com\w2\automation\rough\TestTimeStamp.class

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Data Driven Framework_2]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.w2.automation.listeners.CustomListeners"/>
+  </listeners>
+  <test name="Add Customer Test(failed)">
+    <classes>
+      <class name="com.w2.automation.testcases.AddCustomerTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addCustomer" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.w2.automation.testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- Add Customer Test(failed) -->
+  <test name="Open Account Test(failed)">
+    <classes>
+      <class name="com.w2.automation.testcases.OpenAccountTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="openAccountTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.w2.automation.testcases.OpenAccountTest -->
+    </classes>
+  </test> <!-- Open Account Test(failed) -->
+</suite> <!-- Failed suite [Data Driven Framework_2] -->

@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name  = "Data Driven Framework_2">
+    <!--<listeners>
+        <listener class-name="Framework.listencom.w2.automation.utilities.CustomListenersners"/>
+
+        <listener class-name="Framework.listeners.ExtentReporterNG"/>
+    </listeners>-->
+
+    <!--these listeners are required for ReportNG-->
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.w2.automation.listeners.CustomListeners"/>
+    </listeners>
+
+
+    <test name = "Bank Manager Login Test">
+        <classes>
+            <class name = "com.w2.automation.testcases.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Add Customer Test">
+        <classes>
+            <class name="com.w2.automation.testcases.AddCustomerTest"/>
+        </classes>
+    </test>
+    
+    <test name="Open Account Test">
+        <classes>
+            <class name="com.w2.automation.testcases.OpenAccountTest"/>
+        </classes>
+    </test>
+
+</suite>
