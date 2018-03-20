@@ -21,7 +21,7 @@ public class OpenAccountTest extends TestBase {
             throw new SkipException("Skipping the test " + "openAccountTest".toUpperCase() + "as the Run mode is NO") ;
         }
 
-        //just a comment
+    
         
         click("openAccBtn_CSS");
         select("customerDrop_CSS", customer);
